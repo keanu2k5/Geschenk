@@ -1,9 +1,53 @@
-<div class="card">
-  <h1>Station 8</h1>
-  <div class="riddle">
-    Denke zurück an den sonnigen Tag in Thun… an süßes, schmelzendes Eis in unseren Händen<br>
-    und an eine Bank, auf der zwei Herzen plötzlich lauter schlugen als die ganze Welt um uns herum.<br>
-    In diesem einen magischen Moment trafen unsere Lippen zum allerersten Mal aufeinander.<br><br>
-    Finde das stille Andenken an unseren ersten Kuss. Wenn du es entdeckt hast, kannst du zum nächsten Schritt unserer Reise weitergehen ❤️
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Station 8</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+    body {
+      margin:0; padding:0;
+      background: linear-gradient(135deg, #4a0000, #8b0000);
+      color: #ffd700;
+      font-family: 'Cormorant Garamond', serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card {
+      background: rgba(20,0,0,0.88);
+      border: 5px solid #ffd700;
+      border-radius: 25px;
+      padding: 60px 50px;
+      max-width: 720px;
+      box-shadow: 0 0 80px rgba(255,215,0,0.5);
+      text-align: center;
+    }
+    h1 { 
+      font-family: 'Playfair Display', serif; 
+      font-size: 3.2rem; 
+      margin-bottom: 20px;
+    }
+    .riddle { 
+      font-size: 1.55rem; 
+      line-height: 1.7; 
+      margin: 40px 0; 
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Station 8</h1>
+    <div class="riddle">
+      Denke zurück an den sonnigen Tag in Thun… an süßes, schmelzendes Eis in unseren Händen<br>
+      und an eine Bank, auf der zwei Herzen plötzlich lauter schlugen als die ganze Welt um uns herum.<br>
+      In diesem einen magischen Moment trafen unsere Lippen zum allerersten Mal aufeinander.<br><br>
+      Finde das stille Andenken an unseren ersten Kuss. Wenn du es entdeckt hast, kannst du zum nächsten Schritt unserer Reise weitergehen ❤️
+    </div>
   </div>
-</div>
+</body>
+</html>
